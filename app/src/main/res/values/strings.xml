@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dialog_toast_Test</string>
+    <string name="comment">ダイアログ、トーストの別クラスからの呼び出し</string>
+
+    <!-- toast Label -->
+    <string name="toast.request_permission">位置情報の取得を許可してください。</string>
+    <string name="toast.request_permission_denied">位置情報の取得が拒否されました。アプリを終了します。</string>
+    <string name="toast.request_location_denied">位置情報の有効化が拒否されました。アプリを終了します。</string>
+
+    <!-- AlertDialog Label -->
+    <string name="alert_dialog.title.permission_error">位置情報パーミッション取得エラー</string>
+    <string name="alert_dialog.message.permission_error">位置情報の取得が拒否されました。このアプリには位置情報を取得する許可が必要です。取得を許可する場合は アプリ設定＞権限をチェックしてください。（権限をON/OFFすることで状態はリセットされます）設定画面に移動しますか？</string>
+    <string name="alert_dialog.title.request_enable_location_settings">GPS有効化確認</string>
+    <string name="alert_dialog.message.request_enable_location_settings">GPSが無効になっています。このアプリは位置情報を利用します。GPSを有効にする場合は位置情報をONにしてください。設定画面に移動しますか？</string>
+    <string name="alert_dialog.title.finish_application">アプリ終了確認</string>
+    <string name="alert_dialog.message.finish_application">アプリを終了しますか？</string>
+    <string name="alert_dialog.yes">はい</string>
+    <string name="alert_dialog.no">いいえ</string>
+
+</resources>
