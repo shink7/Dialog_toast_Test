@@ -295,7 +295,7 @@ public class Sub extends Activity {
                 , res.getString(R.string.toast_request_permission_denied)
                 , Toast.LENGTH_LONG);
         toast.show();
-        finish();
+        activity.finish();
 
     }
 
