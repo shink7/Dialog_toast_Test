@@ -104,10 +104,6 @@ public class Sub extends Activity {
         //final Context context = applicationContext;   // 落ちるActivityのキャストができない
         //final Context context = viewContext;          // 未検証
 
-        // contextを使い分ける
-        // Toast,AlertDialog -> activityContext
-        // ActivityCompat.checkSelfPermission -> activityContext
-
 
         // 今まではAndroidManifest.xmlに記述された
         // 権限の許可をアプリのインストール時に求めていたが
