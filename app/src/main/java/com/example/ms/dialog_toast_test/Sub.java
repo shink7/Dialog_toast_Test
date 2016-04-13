@@ -265,7 +265,6 @@ public class Sub extends Activity {
 
         try {
 
-            //startActivity(locationIntent);
             activity.startActivity(locationIntent);
 
         } catch (ActivityNotFoundException e) {
