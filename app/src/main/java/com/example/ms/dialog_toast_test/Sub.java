@@ -197,9 +197,10 @@ public class Sub extends Activity {
 
 
     // requestPermissionsからは直接は受け取れない。MainActivityを通して受け取る
-    public void onRequestPermissionsResult(           int requestCode
-                                           , @NonNull String[] permissions
-                                           , @NonNull int[] grantResults   ) {
+    public void onRequestPermissionsResult(
+                       int requestCode
+            , @NonNull String[] permissions
+            , @NonNull int[] grantResults   ) {
 
         Log.d("Sub", "onRequestStart");
 

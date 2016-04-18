@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
 
+    // SubクラスからのRequestPermissionsを受け取った後そのままSubのonRequestPermissionsResultに渡す
     @Override
     public void onRequestPermissionsResult(
                        int requestCode
